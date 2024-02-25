@@ -298,7 +298,7 @@ pub fn prepare_for_publish(
             None => None,
         },
         replace: None,
-        patch: None,
+        patch: me.patch.clone(),
         workspace: None,
         badges: me.badges.clone(),
         cargo_features: me.cargo_features.clone(),
